@@ -403,4 +403,4 @@ async def help_command(interaction: discord.Interaction):
 
 DISCORD_TOKEN = "YOUR_DISCORD_BOT_TOKEN"
 
-bot.run('discord token')```
+bot.run('discord token')
