@@ -401,6 +401,5 @@ async def help_command(interaction: discord.Interaction):
     view = HelpView()
     await interaction.response.send_message(embed=emb, view=view, ephemeral=True)
 
-DISCORD_TOKEN = "YOUR_DISCORD_BOT_TOKEN"
 
 bot.run('discord token')
